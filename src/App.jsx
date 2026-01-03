@@ -3,14 +3,11 @@ import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
-import MyTrip from "./pages/MyTrip";
-<<<<<<< HEAD
-import ItineraryView from "./pages/ItineraryView";
-=======
 import Calender from "./pages/Calender";
 import Cities from "./pages/Cities";
 import Profile from "./pages/Profile";
->>>>>>> 9708af11cdcdd7a3657925c1860cb7267b718c96
+import ItineraryView from "./pages/ItineraryView";
+import MyTrip from "./pages/MyTrip";
 
 function App() {
   return (
@@ -29,10 +26,6 @@ function App() {
         {/* My Trip Page */}
         <Route path="/mytrip" element={<MyTrip />} />
 
-<<<<<<< HEAD
-        {/* Itinerary View Page */}
-        <Route path="/itineraryview" element={<ItineraryView />} />
-=======
         {/* Calender Page */}
         <Route path="/calender" element={<Calender />} />
 
@@ -41,7 +34,9 @@ function App() {
 
         {/* Profile Page */}
         <Route path="/profile" element={<Profile />} />
->>>>>>> 9708af11cdcdd7a3657925c1860cb7267b718c96
+
+        {/* Itinerary View Page */}
+        <Route path="/itineraryview" element={<ItineraryView />} />
 
         {/* Catch-all for invalid URLs (optional) */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />

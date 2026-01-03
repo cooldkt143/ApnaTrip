@@ -26,7 +26,7 @@ const Header = () => {
     { name: "MyTrip", icon: "flight_takeoff" },
     { name: "ItineraryView", icon: "map" },
     { name: "cities", icon: "location_city" },
-    { name: "calendar", icon: "event" },
+    { name: "calender", icon: "event" },
   ];
 
   const getPageId = (name) => name.toLowerCase().replace(/\s/g, '');
