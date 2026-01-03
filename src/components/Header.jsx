@@ -25,7 +25,7 @@ const Header = () => {
     { name: "Home", icon: "home" },
     { name: "MyTrip", icon: "flight_takeoff" },
     { name: "ItenaryView", icon: "map" },
-    { name: "cities", icon: "location_city" },
+    { name: "Cities", icon: "location_city" },
     { name: "Calender", icon: "event" },
   ];
 
