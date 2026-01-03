@@ -1,0 +1,17 @@
+[
+  {
+    "img": "/scrollcard/sc1.jpg",
+    "alt": "Mountains",
+    "title": "Explore the Mountains"
+  },
+  {
+    "img": "/scrollcard/sg2.jpg",
+    "alt": "Beaches",
+    "title": "Relax at the Beaches"
+  },
+  {
+    "img": "/scrollcard/sc3.jpg",
+    "alt": "Lakes",
+    "title": "Discover Beautiful Lakes"
+  }
+]

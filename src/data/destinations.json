@@ -1,0 +1,74 @@
+[
+  {
+    "img": "/destinations/d1.jpg",
+    "alt": "Coorg, Karnataka",
+    "subtitle": "Coorg",
+    "title": "Karnataka"
+  },
+  {
+    "img": "/destinations/d2.jpg",
+    "alt": "Ziro Valley, Arunachal Pradesh",
+    "subtitle": "Ziro Valley",
+    "title": "Arunachal Pradesh"
+  },
+  {
+    "img": "/destinations/d3.jpg",
+    "alt": "Tawang, Arunachal Pradesh",
+    "subtitle": "Tawang",
+    "title": "Arunachal Pradesh"
+  },
+  {
+    "img": "/destinations/d4.jpg",
+    "alt": "Gokarna, Karnataka",
+    "subtitle": "Gokarna",
+    "title": "Karnataka"
+  },
+  {
+    "img": "/destinations/d5.jpg",
+    "alt": "Spiti Valley, Himachal Pradesh",
+    "subtitle": "Spiti Valley",
+    "title": "Himachal Pradesh"
+  },
+  {
+    "img": "/destinations/d6.jpg",
+    "alt": "Mawlynnong, Meghalaya",
+    "subtitle": "Mawlynnong",
+    "title": "Meghalaya"
+  },
+  {
+    "img": "/destinations/d7.jpg",
+    "alt": "Majuli Island, Assam",
+    "subtitle": "Majuli Island",
+    "title": "Assam"
+  },
+  {
+    "img": "/destinations/d8.jpg",
+    "alt": "Hampi, Karnataka",
+    "subtitle": "Hampi",
+    "title": "Karnataka"
+  },
+  {
+    "img": "/destinations/d9.jpg",
+    "alt": "Chopta, Uttarakhand",
+    "subtitle": "Chopta",
+    "title": "Uttarakhand"
+  },
+  {
+    "img": "/destinations/d10.jpg",
+    "alt": "Khajjiar, Himachal Pradesh",
+    "subtitle": "Khajjiar",
+    "title": "Himachal Pradesh"
+  },
+  {
+    "img": "/destinations/d11.jpg",
+    "alt": "Sandakphu, West Bengal",
+    "subtitle": "Sandakphu",
+    "title": "West Bengal"
+  },
+  {
+    "img": "/destinations/d12.jpg",
+    "alt": "Dzukou Valley, Nagaland",
+    "subtitle": "Dzukou Valley",
+    "title": "Nagaland"
+  }
+]

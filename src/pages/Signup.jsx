@@ -2,17 +2,51 @@ import React, { useState } from "react";
 import { FaGoogle, FaFacebook } from "react-icons/fa";
 import signupBg from "../assets/Background/signup_bg.jpg";
 import { Link, useNavigate } from "react-router-dom";
+import { createUserWithEmailAndPassword, signInWithPopup, updateProfile } from "firebase/auth";
+import { auth, googleProvider, facebookProvider } from "../firebase";
 
 const SignUp = () => {
   const navigate = useNavigate();
-
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
+  const [error, setError] = useState("");
 
-  const handleSignUp = () => {
-    navigate("/home");
+  // Email/password signup
+  const handleEmailSignUp = async () => {
+    if (password !== confirmPassword) {
+      setError("Passwords do not match");
+      return;
+    }
+    try {
+      const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+      // Update user display name
+      await updateProfile(userCredential.user, { displayName: fullName });
+      navigate("/home"); // Redirect after signup
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  // Google signup/login
+  const handleGoogleSignUp = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+      navigate("/home");
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  // Facebook signup/login
+  const handleFacebookSignUp = async () => {
+    try {
+      await signInWithPopup(auth, facebookProvider);
+      navigate("/home");
+    } catch (err) {
+      setError(err.message);
+    }
   };
 
   return (
@@ -22,6 +56,8 @@ const SignUp = () => {
     >
       <div className="backdrop-blur-md bg-white/80 p-6 sm:p-8 rounded-2xl shadow-xl w-full max-w-xl">
         <h2 className="text-2xl font-bold text-center mb-6">Sign Up</h2>
+
+        {error && <p className="text-red-500 mb-4 text-sm">{error}</p>}
 
         {/* Full Name */}
         <div className="mb-4">
@@ -73,26 +109,32 @@ const SignUp = () => {
 
         {/* Sign Up Button */}
         <button
-          onClick={handleSignUp}
+          onClick={handleEmailSignUp}
           className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition mb-4"
         >
           Sign Up
         </button>
 
         <div className="flex items-center my-4">
-          <div className="flex-1 h-px bg-gray-300" />
+          <div className="flex-1 h-px bg-gray-300"></div>
           <span className="px-2 text-gray-500 text-sm">or</span>
-          <div className="flex-1 h-px bg-gray-300" />
+          <div className="flex-1 h-px bg-gray-300"></div>
         </div>
 
         {/* Google Button */}
-        <button className="w-full flex items-center justify-center gap-2 border py-2 rounded-lg hover:bg-gray-100 transition mb-3">
+        <button
+          onClick={handleGoogleSignUp}
+          className="w-full flex items-center justify-center gap-2 border py-2 rounded-lg hover:bg-gray-100 transition mb-3"
+        >
           <FaGoogle className="text-red-500" />
           <span>Continue with Google</span>
         </button>
 
         {/* Facebook Button */}
-        <button className="w-full flex items-center justify-center gap-2 border py-2 rounded-lg hover:bg-gray-100 transition mb-3">
+        <button
+          onClick={handleFacebookSignUp}
+          className="w-full flex items-center justify-center gap-2 border py-2 rounded-lg hover:bg-gray-100 transition mb-3"
+        >
           <FaFacebook className="text-blue-600" />
           <span>Continue with Facebook</span>
         </button>

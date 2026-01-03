@@ -4,6 +4,7 @@ import { FaCompass } from "react-icons/fa";
 import TripFilterBar from "../components/mytrip/TripFilterBar";
 import TripCard from "../components/mytrip/TripCard";
 import tripsData from "../data/tripsData.json";
+import Header from "../components/Header";
 
 const MyTrip = () => {
   const [activeFilter, setActiveFilter] = useState("All");
@@ -15,7 +16,8 @@ const MyTrip = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#134E4A] via-[#0F3D3A] to-[#020617] text-white px-6 py-10">
+    <div className="min-h-screen bg-gradient-to-b from-[#134E4A] via-[#0F3D3A] to-[#020617] text-white px-6 py-20">
+      <Header />
 
       {/* Header */}
       <div className="mb-8 text-center">
