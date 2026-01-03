@@ -1,0 +1,230 @@
+{
+  "1": [
+    {
+      "day": 1,
+      "city": "Jaipur",
+      "activities": [
+        "09:00 AM - Visit Amber Fort",
+        "12:00 PM - Lunch at LMB",
+        "02:00 PM - Explore City Palace",
+        "05:00 PM - Shopping at Johari Bazaar"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Jodhpur",
+      "activities": [
+        "08:00 AM - Travel to Jodhpur",
+        "10:00 AM - Visit Mehrangarh Fort",
+        "01:00 PM - Lunch at Clock Tower",
+        "03:00 PM - Explore Old City"
+      ]
+    },
+    {
+      "day": 3,
+      "city": "Udaipur",
+      "activities": [
+        "07:30 AM - Travel to Udaipur",
+        "11:00 AM - Visit City Palace",
+        "01:00 PM - Lunch by Lake Pichola",
+        "03:00 PM - Boat Ride at Lake Pichola"
+      ]
+    }
+  ],
+  "2": [
+    {
+      "day": 1,
+      "city": "Goa",
+      "activities": [
+        "09:00 AM - Breakfast at hotel",
+        "10:00 AM - Beach walk at Baga Beach",
+        "12:00 PM - Lunch at Fisherman's Wharf",
+        "03:00 PM - Relax by the pool"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Goa",
+      "activities": [
+        "08:00 AM - Yoga by the beach",
+        "10:00 AM - Explore Old Goa churches",
+        "01:00 PM - Lunch at Vinayak Family Restaurant",
+        "06:00 PM - Sunset at Chapora Fort"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "day": 1,
+      "city": "Kasol",
+      "activities": [
+        "08:00 AM - Breakfast at hostel",
+        "09:00 AM - Trek to Chalal Village",
+        "01:00 PM - Lunch by the river",
+        "06:00 PM - Evening bonfire"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Manali",
+      "activities": [
+        "07:00 AM - Travel to Manali",
+        "12:00 PM - Check‑in & lunch",
+        "02:00 PM - Visit Hadimba Temple",
+        "04:00 PM - Explore Mall Road"
+      ]
+    }
+  ],
+  "4": [
+    {
+      "day": 1,
+      "city": "Madurai",
+      "activities": [
+        "09:00 AM - Meenakshi Amman Temple visit",
+        "12:00 PM - Lunch at local restaurant",
+        "02:00 PM - Visit Thirumalai Nayakkar Palace",
+        "05:00 PM - Explore Flower Market"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Rameswaram",
+      "activities": [
+        "07:30 AM - Travel to Rameswaram",
+        "10:30 AM - Visit Ramanathaswamy Temple",
+        "01:00 PM - Lunch at hotel",
+        "03:00 PM - Relax at Dhanushkodi Beach"
+      ]
+    },
+    {
+      "day": 3,
+      "city": "Thanjavur",
+      "activities": [
+        "08:00 AM - Travel to Thanjavur",
+        "10:00 AM - Visit Brihadeeswarar Temple",
+        "01:00 PM - Lunch at local café",
+        "03:00 PM - Art & craft market visit"
+      ]
+    }
+  ],
+  "5": [
+    {
+      "day": 1,
+      "city": "Delhi",
+      "activities": [
+        "09:00 AM - Breakfast at Connaught Place",
+        "10:00 AM - Visit Red Fort",
+        "12:30 PM - Lunch at Karim’s",
+        "03:00 PM - Explore Chandni Chowk"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Delhi",
+      "activities": [
+        "08:00 AM - Visit India Gate",
+        "10:00 AM - Humayun’s Tomb tour",
+        "01:00 PM - Lunch at Saravana Bhavan",
+        "04:00 PM - Evening walk at Lodhi Garden"
+      ]
+    }
+  ],
+  "6": [
+    {
+      "day": 1,
+      "city": "Kolkata",
+      "activities": [
+        "09:00 AM - Breakfast at Flurys",
+        "10:00 AM - Victoria Memorial visit",
+        "01:00 PM - Lunch at 6 Ballygunge Place",
+        "03:00 PM - Explore Park Street"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Kolkata",
+      "activities": [
+        "08:30 AM - Visit Marble Palace",
+        "11:00 AM - Indian Museum tour",
+        "01:30 PM - Lunch at Oh! Calcutta",
+        "04:00 PM - Boat ride on Hooghly River"
+      ]
+    }
+  ],
+  "7": [
+    {
+      "day": 1,
+      "city": "Munnar",
+      "activities": [
+        "08:00 AM - Tea plantation walk",
+        "11:00 AM - Eravikulam National Park visit",
+        "01:00 PM - Lunch at local café",
+        "03:00 PM - Echo Point sightseeing"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Alleppey",
+      "activities": [
+        "07:30 AM - Transfer to Alleppey",
+        "10:00 AM - Houseboat backwaters cruise",
+        "01:00 PM - Lunch on board",
+        "04:00 PM - Sunset on the backwaters"
+      ]
+    },
+    {
+      "day": 3,
+      "city": "Varkala",
+      "activities": [
+        "08:00 AM - Beach time at Varkala Cliff",
+        "12:00 PM - Lunch at a seaside café",
+        "03:00 PM - Papanasam Beach visit",
+        "06:00 PM - Sunset overlooking Arabian Sea"
+      ]
+    }
+  ],
+  "8": [
+    {
+      "day": 1,
+      "city": "Mumbai",
+      "activities": [
+        "09:00 AM - Breakfast at Leopold Café",
+        "10:30 AM - Marine Drive walk",
+        "01:00 PM - Lunch at Bademiya",
+        "03:00 PM - Gateway of India visit"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Mumbai",
+      "activities": [
+        "08:00 AM - Elephanta Caves tour",
+        "12:00 PM - Lunch at Café Mondegar",
+        "03:00 PM - Colaba Causeway shopping",
+        "06:00 PM - Sunset at Bandstand"
+      ]
+    }
+  ],
+  "9": [
+    {
+      "day": 1,
+      "city": "Nainital",
+      "activities": [
+        "08:00 AM - Boat ride on Naini Lake",
+        "10:30 AM - Cable car to Naina Peak",
+        "01:00 PM - Lunch at Café Lakeside",
+        "03:00 PM - Explore Mall Road"
+      ]
+    },
+    {
+      "day": 2,
+      "city": "Ranikhet",
+      "activities": [
+        "07:30 AM - Travel to Ranikhet",
+        "10:00 AM - Visit Jhula Devi Temple",
+        "01:00 PM - Lunch at local dhaba",
+        "03:00 PM - Golf course walk and sunset"
+      ]
+    }
+  ]
+}
