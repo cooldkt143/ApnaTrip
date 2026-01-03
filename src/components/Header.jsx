@@ -23,7 +23,7 @@ const Header = () => {
 
   const navItems = [
     { name: "Home", icon: "home" },
-    { name: "MyTrips", icon: "flight_takeoff" },
+    { name: "MyTrip", icon: "flight_takeoff" },
     { name: "ItenaryView", icon: "map" },
     { name: "cities", icon: "location_city" },
     { name: "calendar", icon: "event" },

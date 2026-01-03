@@ -3,6 +3,7 @@ import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
+import MyTrip from "./pages/MyTrip";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
 
         {/* Home Page */}
         <Route path="/home" element={<Home />} />
+
+        {/* My Trip Page */}
+        <Route path="/mytrip" element={<MyTrip />} />
 
         {/* Catch-all for invalid URLs (optional) */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
