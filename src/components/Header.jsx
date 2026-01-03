@@ -24,9 +24,9 @@ const Header = () => {
   const navItems = [
     { name: "Home", icon: "home" },
     { name: "MyTrip", icon: "flight_takeoff" },
-    { name: "ItenaryView", icon: "map" },
-    { name: "Cities", icon: "location_city" },
-    { name: "Calender", icon: "event" },
+    { name: "ItineraryView", icon: "map" },
+    { name: "cities", icon: "location_city" },
+    { name: "calendar", icon: "event" },
   ];
 
   const getPageId = (name) => name.toLowerCase().replace(/\s/g, '');
