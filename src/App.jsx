@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import MyTrip from "./pages/MyTrip";
 import Calender from "./pages/Calender";
 import Cities from "./pages/Cities";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
 
         {/* Cities / Destination Page */}
         <Route path="/cities" element={<Cities />} />
+
+        {/* Profile Page */}
+        <Route path="/profile" element={<Profile />} />
 
         {/* Catch-all for invalid URLs (optional) */}
         <Route path="*" element={<h1>404 - Page Not Found</h1>} />
